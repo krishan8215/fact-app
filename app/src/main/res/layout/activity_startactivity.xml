@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".Startactivity">
+
+
+    <TextView
+        android:id="@+id/bb"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@color/orange"
+        android:text="Fact App"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        android:textStyle="bold|italic">
+    </TextView>
+
+   <LinearLayout
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_marginTop="250dp"
+    android:textAlignment="center"
+    android:layout_gravity="center"
+    android:gravity="center"
+
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/start"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:gravity="center"
+        android:layout_marginStart="25dp"
+        android:layout_marginEnd="25dp"
+        android:background="@drawable/btn_shape"
+
+        android:text="START"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        android:textStyle="bold|italic">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/rate"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:gravity="center"
+        android:layout_marginEnd="25dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="20sp"
+        android:background="@drawable/btn_shape"
+        android:text="RATE"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        android:textStyle="bold|italic">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/more"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:gravity="center"
+        android:layout_marginStart="25dp"
+        android:layout_marginEnd="25dp"
+        android:background="@drawable/btn_shape"
+        android:layout_marginTop="20sp"
+
+        android:text="MORE"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        android:textStyle="bold|italic">
+
+    </TextView>
+    </LinearLayout>
+    </LinearLayout>
